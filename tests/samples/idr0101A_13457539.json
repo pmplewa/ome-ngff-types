@@ -1,0 +1,161 @@
+{
+  "_creator": {
+    "name": "omero-zarr",
+    "version": "0.1.dev314+g33e42b1"
+  },
+  "multiscales": [
+    {
+      "axes": [
+        {
+          "name": "t",
+          "type": "time"
+        },
+        {
+          "name": "c",
+          "type": "channel"
+        },
+        {
+          "name": "z",
+          "type": "space",
+          "unit": "micrometer"
+        },
+        {
+          "name": "y",
+          "type": "space",
+          "unit": "micrometer"
+        },
+        {
+          "name": "x",
+          "type": "space",
+          "unit": "micrometer"
+        }
+      ],
+      "coordinateTransformations": [
+        {
+          "scale": [1.0, 1.0, 0.4, 0.108335, 0.108335],
+          "type": "scale"
+        },
+        {
+          "translation": [0, 0, 1.2, 161.59, 176.44],
+          "type": "translation"
+        }
+      ],
+      "datasets": [
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [1, 1, 1, 1, 1],
+              "type": "scale"
+            }
+          ],
+          "path": "0"
+        },
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [1, 1, 1, 2, 2],
+              "type": "scale"
+            }
+          ],
+          "path": "1"
+        }
+      ],
+      "version": "0.4"
+    }
+  ],
+  "omero": {
+    "channels": [
+      {
+        "active": true,
+        "coefficient": 1.0,
+        "color": "FFFFFF",
+        "family": "linear",
+        "inverted": false,
+        "label": "cy 1",
+        "window": {
+          "end": 1200.0,
+          "max": 65535.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": true,
+        "coefficient": 1.0,
+        "color": "FFFFFF",
+        "family": "linear",
+        "inverted": false,
+        "label": "cy 2",
+        "window": {
+          "end": 1200.0,
+          "max": 65535.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": true,
+        "coefficient": 1.0,
+        "color": "FFFFFF",
+        "family": "linear",
+        "inverted": false,
+        "label": "cy 3",
+        "window": {
+          "end": 1200.0,
+          "max": 65535.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": true,
+        "coefficient": 1.0,
+        "color": "FFFFFF",
+        "family": "linear",
+        "inverted": false,
+        "label": "cy 4",
+        "window": {
+          "end": 1200.0,
+          "max": 65535.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": true,
+        "coefficient": 1.0,
+        "color": "0000FF",
+        "family": "linear",
+        "inverted": false,
+        "label": "DAPI",
+        "window": {
+          "end": 5000.0,
+          "max": 65535.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": true,
+        "coefficient": 1.0,
+        "color": "FF0000",
+        "family": "linear",
+        "inverted": false,
+        "label": "Hyb probe",
+        "window": {
+          "end": 100.0,
+          "max": 65535.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      }
+    ],
+    "id": 1,
+    "rdefs": {
+      "defaultT": 0,
+      "defaultZ": 9,
+      "model": "color"
+    },
+    "version": "0.4"
+  }
+}

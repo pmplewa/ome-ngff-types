@@ -1,0 +1,30 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "ome-ngff-types"
+version = "0.0.1"
+description = "Models for representing and validating OME-NGFF metadata."
+license="Apache-2.0"
+authors = ["Philipp Plewa <pmplewa@users.noreply.github.com>"]
+readme = "README.md"
+repository = "https://github.com/pmplewa/ome-ngff-types"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Image Processing",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+pydantic = ">=2"
+
+[tool.poetry.group.dev.dependencies]
+invoke = "~=2.2"
+mypy = "~=1.7"
+pytest = "~=7.4"
+ruff = "~=0.1"
+
+[tool.ruff]
+select = ["E",  "F",  "I",  "UP",  "W"]

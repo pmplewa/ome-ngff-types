@@ -1,0 +1,473 @@
+{
+  "_creator": {
+    "name": "omero-zarr",
+    "version": "0.0.2.dev274+gfaf9262"
+  },
+  "multiscales": [
+    {
+      "axes": [
+        {
+          "name": "t",
+          "type": "time"
+        },
+        {
+          "name": "c",
+          "type": "channel"
+        },
+        {
+          "name": "z",
+          "type": "space"
+        },
+        {
+          "name": "y",
+          "type": "space"
+        },
+        {
+          "name": "x",
+          "type": "space"
+        }
+      ],
+      "datasets": [
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [1.0, 1.0, 1.0, 1.0, 1.0],
+              "type": "scale"
+            }
+          ],
+          "path": "0"
+        },
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [1.0, 1.0, 1.0, 2.0, 2.0],
+              "type": "scale"
+            }
+          ],
+          "path": "1"
+        },
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [1.0, 1.0, 1.0, 4.0, 4.0],
+              "type": "scale"
+            }
+          ],
+          "path": "2"
+        },
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [1.0, 1.0, 1.0, 8.0, 8.0],
+              "type": "scale"
+            }
+          ],
+          "path": "3"
+        },
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [1.0, 1.0, 1.0, 16.0, 16.0],
+              "type": "scale"
+            }
+          ],
+          "path": "4"
+        }
+      ],
+      "metadata": {
+        "method": "loci.common.image.SimpleImageScaler",
+        "version": "Bio-Formats 6.9.1"
+      },
+      "version": "0.4"
+    }
+  ],
+  "omero": {
+    "channels": [
+      {
+        "active": true,
+        "coefficient": 1.0,
+        "color": "FF0000",
+        "family": "linear",
+        "inverted": false,
+        "label": "CD3-170Er",
+        "window": {
+          "end": 150.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": true,
+        "coefficient": 1.0,
+        "color": "00FF00",
+        "family": "linear",
+        "inverted": false,
+        "label": "CD19-169Tm",
+        "window": {
+          "end": 255.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": true,
+        "coefficient": 1.0,
+        "color": "0000FF",
+        "family": "linear",
+        "inverted": false,
+        "label": "CD324/E-Cadherin-158Gd",
+        "window": {
+          "end": 150.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": true,
+        "coefficient": 1.0,
+        "color": "00FFFF",
+        "family": "linear",
+        "inverted": false,
+        "label": "CD206-168Er",
+        "window": {
+          "end": 50.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": true,
+        "coefficient": 1.0,
+        "color": "FF00FF",
+        "family": "linear",
+        "inverted": false,
+        "label": "Bcl6-163Dy",
+        "window": {
+          "end": 100.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": true,
+        "coefficient": 1.0,
+        "color": "FFFF00",
+        "family": "linear",
+        "inverted": false,
+        "label": "CD141/BDCA3-165Ho",
+        "window": {
+          "end": 50.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": true,
+        "coefficient": 1.0,
+        "color": "FFFFFF",
+        "family": "linear",
+        "inverted": false,
+        "label": "alphaSMA-141Pr",
+        "window": {
+          "end": 255.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": false,
+        "coefficient": 1.0,
+        "color": "00FF00",
+        "family": "linear",
+        "inverted": false,
+        "label": "IL-21-164Dy",
+        "window": {
+          "end": 255.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": false,
+        "coefficient": 1.0,
+        "color": "0000FF",
+        "family": "linear",
+        "inverted": false,
+        "label": "CD185/CXCR5-151Eu",
+        "window": {
+          "end": 255.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": false,
+        "coefficient": 1.0,
+        "color": "FF0000",
+        "family": "linear",
+        "inverted": false,
+        "label": "CD45-152Sm",
+        "window": {
+          "end": 255.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": false,
+        "coefficient": 1.0,
+        "color": "00FF00",
+        "family": "linear",
+        "inverted": false,
+        "label": "empty",
+        "window": {
+          "end": 255.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": false,
+        "coefficient": 1.0,
+        "color": "0000FF",
+        "family": "linear",
+        "inverted": false,
+        "label": "CXCL13-157Gd",
+        "window": {
+          "end": 255.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": false,
+        "coefficient": 1.0,
+        "color": "FF0000",
+        "family": "linear",
+        "inverted": false,
+        "label": "CD1c/BDCA1-biotin + Neutravidin-173Yb",
+        "window": {
+          "end": 255.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": false,
+        "coefficient": 1.0,
+        "color": "00FF00",
+        "family": "linear",
+        "inverted": false,
+        "label": "CD303/BDCA2-147Sm",
+        "window": {
+          "end": 255.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": false,
+        "coefficient": 1.0,
+        "color": "0000FF",
+        "family": "linear",
+        "inverted": false,
+        "label": "CD11b-149Sm",
+        "window": {
+          "end": 255.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": false,
+        "coefficient": 1.0,
+        "color": "FF0000",
+        "family": "linear",
+        "inverted": false,
+        "label": "CD45RA-155Gd",
+        "window": {
+          "end": 255.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": false,
+        "coefficient": 1.0,
+        "color": "00FF00",
+        "family": "linear",
+        "inverted": false,
+        "label": "CD123-143Nd",
+        "window": {
+          "end": 255.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": false,
+        "coefficient": 1.0,
+        "color": "0000FF",
+        "family": "linear",
+        "inverted": false,
+        "label": "CD68-171Yb",
+        "window": {
+          "end": 255.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": false,
+        "coefficient": 1.0,
+        "color": "FF0000",
+        "family": "linear",
+        "inverted": false,
+        "label": "HLA-DR-174Yb",
+        "window": {
+          "end": 255.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": false,
+        "coefficient": 1.0,
+        "color": "00FF00",
+        "family": "linear",
+        "inverted": false,
+        "label": "CD279/PD-1-175Lu",
+        "window": {
+          "end": 255.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": false,
+        "coefficient": 1.0,
+        "color": "0000FF",
+        "family": "linear",
+        "inverted": false,
+        "label": "CD370/Clec9A-161Dy",
+        "window": {
+          "end": 255.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": false,
+        "coefficient": 1.0,
+        "color": "FF0000",
+        "family": "linear",
+        "inverted": false,
+        "label": "CD11c-159Tb",
+        "window": {
+          "end": 255.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": false,
+        "coefficient": 1.0,
+        "color": "00FF00",
+        "family": "linear",
+        "inverted": false,
+        "label": "ICOS-148Nd",
+        "window": {
+          "end": 255.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": false,
+        "coefficient": 1.0,
+        "color": "0000FF",
+        "family": "linear",
+        "inverted": false,
+        "label": "DNA1-191/193Ir",
+        "window": {
+          "end": 255.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": false,
+        "coefficient": 1.0,
+        "color": "FF0000",
+        "family": "linear",
+        "inverted": false,
+        "label": "CD56-176Yb",
+        "window": {
+          "end": 255.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": false,
+        "coefficient": 1.0,
+        "color": "00FF00",
+        "family": "linear",
+        "inverted": false,
+        "label": "DNA2-191/193Ir",
+        "window": {
+          "end": 255.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      },
+      {
+        "active": false,
+        "coefficient": 1.0,
+        "color": "0000FF",
+        "family": "linear",
+        "inverted": false,
+        "label": "CD14-156Gd",
+        "window": {
+          "end": 255.0,
+          "max": 255.0,
+          "min": 0.0,
+          "start": 0.0
+        }
+      }
+    ],
+    "id": 5025551,
+    "rdefs": {
+      "defaultT": 0,
+      "defaultZ": 0,
+      "model": "color"
+    },
+    "version": "0.4"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "image-label": {
+    "colors": [
+      {
+        "label-value": 2371559,
+        "rgba": [255, 255, 255, 64]
+      }
+    ],
+    "properties": [
+      {
+        "label-value": 2371559,
+        "omero:roiId": 2371559,
+        "omero:shapeId": 7155345,
+        "omero:text": "nucleus"
+      }
+    ],
+    "source": {
+      "image": "../.."
+    },
+    "version": "0.4"
+  },
+  "multiscales": [
+    {
+      "axes": [
+        {
+          "name": "t",
+          "type": "time"
+        },
+        {
+          "name": "c",
+          "type": "channel"
+        },
+        {
+          "name": "z",
+          "type": "space",
+          "units": "micrometer"
+        },
+        {
+          "name": "y",
+          "type": "space",
+          "units": "micrometer"
+        },
+        {
+          "name": "x",
+          "type": "space",
+          "units": "micrometer"
+        }
+      ],
+      "datasets": [
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [1.0, 1.0, 0.4, 0.108335, 0.108335],
+              "type": "scale"
+            },
+            {
+              "translation": [0, 0, 1.2, 52.109135, 60.88427],
+              "type": "translation"
+            }
+          ],
+          "path": "0"
+        },
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [1.0, 1.0, 0.4, 0.21667, 0.21667],
+              "type": "scale"
+            }
+          ],
+          "path": "1"
+        },
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [1.0, 1.0, 0.4, 0.43334, 0.43334],
+              "type": "scale"
+            }
+          ],
+          "path": "2"
+        },
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [1.0, 1.0, 0.4, 0.86668, 0.86668],
+              "type": "scale"
+            }
+          ],
+          "path": "3"
+        }
+      ],
+      "version": "0.4"
+    }
+  ]
+}
